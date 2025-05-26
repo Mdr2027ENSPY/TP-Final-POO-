@@ -1,0 +1,40 @@
+{
+  "C1" : {
+    "id" : "C1",
+    "nom" : "Conférence Java",
+    "date" : "2025-06-10T14:00:00",
+    "lieu" : "Paris",
+    "capaciteMax" : 2,
+    "participants" : [ {
+      "id" : "P1",
+      "nom" : "Bob",
+      "email" : "bob@mail.com"
+    }, {
+      "id" : "P2",
+      "nom" : "Charlie",
+      "email" : "charlie@mail.com"
+    } ],
+    "theme" : "Programmation Orientée Objet",
+    "intervenants" : [ {
+      "nom" : "Dr. Dupont",
+      "specialite" : "Architecture"
+    }, {
+      "nom" : "Mme. Leroy",
+      "specialite" : "Design Patterns"
+    } ]
+  },
+  "C2" : {
+    "id" : "C2",
+    "nom" : "Concert Rock",
+    "date" : "2025-06-12T20:00:00",
+    "lieu" : "Lyon",
+    "capaciteMax" : 200,
+    "participants" : [ {
+      "id" : "P2",
+      "nom" : "Charlie",
+      "email" : "charlie@mail.com"
+    } ],
+    "artiste" : "The Rockers",
+    "genreMusical" : "Rock"
+  }
+}
